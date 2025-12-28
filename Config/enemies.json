@@ -1,0 +1,29 @@
+﻿{
+  "basic": {
+    "id": "basic",
+    "baseHP": 30,
+    "baseDamage": 10,
+    "baseSpeed": 80,
+    "attackRange": 20,
+    "attackCooldown": 0.8,
+    "isRanged": false
+  },
+  "fast": {
+    "id": "fast",
+    "baseHP": 20,
+    "baseDamage": 8,
+    "baseSpeed": 120,
+    "attackRange": 20,
+    "attackCooldown": 0.6,
+    "isRanged": false
+  },
+  "ranged": {
+    "id": "ranged",
+    "baseHP": 25,
+    "baseDamage": 12,
+    "baseSpeed": 60,
+    "attackRange": 220,
+    "attackCooldown": 1.5,
+    "isRanged": true
+  }
+}

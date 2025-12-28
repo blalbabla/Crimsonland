@@ -1,0 +1,12 @@
+﻿{
+  "melee": {
+    "attackRange": 22,
+    "attackCooldown": 0.6,
+    "contactDamage": true
+  },
+  "ranged": {
+    "attackRange": 220,
+    "attackCooldown": 1.2,
+    "projectileSpeed": 420
+  }
+}

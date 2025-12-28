@@ -1,0 +1,37 @@
+﻿{
+  "damage_up": {
+    "id": "damage_up",
+    "stat": "damage",
+    "mode": "multiplier",
+    "value": 1.10,
+    "maxStacks": -1
+  },
+  "rate_of_fire": {
+    "id": "rate_of_fire",
+    "stat": "fireRate",
+    "mode": "multiplier",
+    "value": 1.15,
+    "maxStacks": -1
+  },
+  "move_speed": {
+    "id": "move_speed",
+    "stat": "moveSpeed",
+    "mode": "multiplier",
+    "value": 1.10,
+    "maxStacks": 5
+  },
+  "max_health": {
+    "id": "max_health",
+    "stat": "maxHp",
+    "mode": "additive",
+    "value": 20,
+    "maxStacks": -1
+  },
+  "regeneration": {
+    "id": "regeneration",
+    "stat": "hpRegen",
+    "mode": "tick",
+    "value": 1,
+    "maxStacks": -1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "timeWeight": 0.02,
+  "levelWeight": 0.5,
+
+  "baseSpawnRate": 1.5,
+  "spawnRateMultiplier": 0.3,
+  "maxSpawnRate": 12.0,
+
+  "enemyHpMultiplier": 0.05,
+  "enemyDamageMultiplier": 0.03,
+  "enemySpeedMultiplier": 0.01,
+
+  "enemyTypeThresholds": {
+    "basic": 0,
+    "fast": 10,
+    "ranged": 25,
+    "tank": 40,
+    "exploder": 60
+  }
+}

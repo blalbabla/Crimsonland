@@ -1,0 +1,24 @@
+﻿{
+  "pistol": {
+    "id": "pistol",
+    "damage": 10,
+    "rateOfFire": 4,
+    "spread": 2,
+    "ammo": -1,
+    "reloadTime": 0,
+    "projectileSpeed": 0,
+    "projectileRadius": 3,
+    "isHitscan": true
+  },
+  "rifle": {
+    "id": "rifle",
+    "damage": 12,
+    "rateOfFire": 8,
+    "spread": 5,
+    "ammo": 200,
+    "reloadTime": 1.5,
+    "projectileSpeed": 900,
+    "projectileRadius": 3,
+    "isHitscan": false
+  }
+}

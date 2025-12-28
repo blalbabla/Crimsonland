@@ -8,7 +8,6 @@ public sealed class Renderer
   private readonly EnemySystem _enemySystem;
   private readonly ProjectileSystem _projectileSystem;
 
-  // Внедряем зависимости через конструктор
   public Renderer(PlayerSystem playerSystem, EnemySystem enemySystem, ProjectileSystem projectileSystem)
   {
     _playerSystem = playerSystem;
@@ -20,6 +19,8 @@ public sealed class Renderer
   {
     PlayerRenderer.Draw(_playerSystem.Player);
     EnemyRenderer.Draw(_enemySystem.Enemies);
+
+    // <--- Рисуем снаряды
     ProjectileRenderer.Draw(_projectileSystem.ActiveProjectiles());
   }
 }

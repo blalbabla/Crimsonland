@@ -4,7 +4,7 @@ class Program
 {
   static void Main()
   {
-    using var game = new Game();
+    using var game = new Crimsonland.Game();
     game.Run();
   }
 }

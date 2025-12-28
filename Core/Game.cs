@@ -3,6 +3,7 @@ using Crimsonland.Core;
 using Crimsonland.Systems;
 using Crimsonland.UI;
 using Crimsonland.Components;
+using Crimsonland.Rendering;
 using Raylib_cs;
 
 namespace Crimsonland;
@@ -22,11 +23,11 @@ public sealed class Game : IDisposable
   private readonly EnemySystem enemySystem;
   private readonly SpawnSystem spawnSystem;
   private readonly ProjectileSystem projectileSystem;
-  private readonly WeaponSystem weaponSystem; // Вернули WeaponSystem
-  private readonly ScoreSystem scoreSystem;   // Добавили ScoreSystem
+  private readonly WeaponSystem weaponSystem; 
+  private readonly ScoreSystem scoreSystem;
 
   // Рендерер
-  private readonly Crimsonland.Rendering.Renderer renderer;
+  Renderer renderer = new Renderer(playerSystem, enemySystem, projectileSystem);
 
   private GameState state = GameState.Playing;
 

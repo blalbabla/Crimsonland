@@ -15,7 +15,6 @@
     <Folder Include="Assets\Fonts\" />
     <Folder Include="Assets\Sounds\" />
     <Folder Include="Assets\Sprites\" />
-    <Folder Include="UI\" />
   </ItemGroup>
 
 </Project>
